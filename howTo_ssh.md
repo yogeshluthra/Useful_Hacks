@@ -5,10 +5,10 @@
       [visit this webpage](https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html)
 
 - Then update `~/.ssh/config` file, as
-  `Host robot \n
-      HostName 192.168.20.195 \n
-      User lewis \n
-      Port 22`
+  ```Host robot
+      HostName 192.168.20.195
+      User lewis
+      Port 22```
 
 - Then simply `ssh robot`
   - where `robot` is the host machine in `.ssh/config` file.
